@@ -9,7 +9,8 @@ Cette présente méthode d'appareillement linguistique via le système API (alph
   * Et les Hiraganas ? Certains sons français exigent d'utiliser des charactères de la table étendue. Celle des Hiraganas étant restreinte, une grande partie des phonèmes typiques au français ne sont disponibles que dans la table étendue des Katakanas, notamment grâce aux systèmes suggérés par le Cabinet du Japon et l'ANSI, et au formatage de romanisation Hepburn, dédié à pareil exercice.
 
 * Comment s'en servir ?
-  * Insérer le texte à traduire dans [texte=""].
+  * Avec un IDE, insérer le texte à traduire dans texte=[]. Veiller à bien indiquer chaque entrée sous forme de str, et les séparer selon les besoins.
+  * Avec la console de commande, spécifier les entrées à traduire en les passant en arguments sous la forme "ligne un" "ligne deux". Vous pouvez indiquer d'arguments que désirer.
   * Lancer, le résultat sera affiché par un print().
   * Dûe à la limitation des bibliothèques de reconnaissance de phonèmes et à la grande variété des sons dans la langue française, une lecture critique des résultats de cet outil, qui restent à titre d'aide informative, est impérative, et des modifications ou corrections manuelles peuvent être nécessaires.
 
